@@ -1,12 +1,12 @@
 PHP REST Client
 ===============
-https://github.com/lukaszjarosinski/restclient 
-(c) 2022 <lukaszjarosinski@gmail.com>  
+https://github.com/lukaszterg/restc 
+(c) 2024 <lukaszjarosinski@gmail.com>  
 
 Installation
 -----------
 ``` sh
-$ php composer.phar require lukaszjarosinski/restclient
+$ php composer.phar require lukaszterg/restc
 ```
 
 
