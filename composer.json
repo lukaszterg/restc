@@ -1,0 +1,35 @@
+{
+    "name": "lukaszterg/restc",
+    "version": "0.1",
+    "description": "Simple and fast rest client",
+    "type": "library",
+    "keywords": ["REST", "api", "client", "curl", "JSON", "XML"],
+    "homepage": "http://github.com/lukaszterg/restc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Łukasz Jarosiński",
+            "role": "Developer",
+            "email": "lukaszjarosinski@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/lukaszterg/restc/issues"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "files": [
+            "lib/RestClient.php"
+        ],
+        "psr-4": {
+          "Lib\\": "lib/"
+        }
+    }
+}
